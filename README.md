@@ -1,4 +1,5 @@
 # Workflow Skills for Claude Code
+n![Workflow Skills for Claude Code](assets/cover.png)
 
 Five skills that change how Claude Code works on long jobs.
 
