@@ -19,6 +19,10 @@ Five skills that change how Claude Code works on long jobs.
 
 Or copy any `skills/<name>` folder into `~/.claude/skills/`.
 
+## Support
+
+Free forever. If these save you time, you can [pay what you want on Gumroad](https://decodedpc.gumroad.com/l/wsgyo).
+
 ## License
 
 MIT. See `LICENSE`.
