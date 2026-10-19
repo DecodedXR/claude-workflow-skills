@@ -12,10 +12,8 @@ Five skills that change how Claude Code works on long jobs.
 
 ## Install
 
-From a local copy:
-
 ```
-/plugin marketplace add ./claude-workflow-skills
+/plugin marketplace add DecodedXR/claude-workflow-skills
 /plugin install workflow-skills@decodedxr
 ```
 
