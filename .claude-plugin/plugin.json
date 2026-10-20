@@ -8,6 +8,7 @@
   "repository": "https://github.com/DecodedXR/claude-workflow-skills",
   "supportUrl": "https://github.com/DecodedXR/claude-workflow-skills/issues",
   "documentationUrl": "https://github.com/DecodedXR/claude-workflow-skills#readme",
+  "privacyPolicyUrl": "https://github.com/DecodedXR/claude-workflow-skills/blob/main/PRIVACY.md",
   "license": "MIT",
   "keywords": ["autopilot", "planning", "subagents", "autonomous", "workflow"]
 }
