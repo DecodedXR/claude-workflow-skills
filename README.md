@@ -16,7 +16,7 @@ Five skills that change how Claude Code works on long jobs.
 
 ```
 /plugin marketplace add DecodedXR/claude-workflow-skills
-/plugin install workflow-skills@decodedxr
+/plugin install autopilot-wargame@decodedxr
 ```
 
 Or copy any `skills/<name>` folder into `~/.claude/skills/`.

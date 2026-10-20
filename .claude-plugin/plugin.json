@@ -1,8 +1,9 @@
 {
-  "name": "workflow-skills",
+  "name": "autopilot-wargame",
   "version": "1.0.0",
   "description": "Five battle-tested Claude Code workflow skills: autopilot (ship the next unblocked task behind a verifier + CI gate), wargame (plan so a cheaper model executes blind), delegate, afk, and prepare-for-next-session.",
   "author": { "name": "DecodedXR" },
+  "icon": ".claude-plugin/icon.png",
   "license": "MIT",
   "keywords": ["autopilot", "planning", "subagents", "autonomous", "workflow"]
 }

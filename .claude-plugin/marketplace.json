@@ -4,7 +4,7 @@
   "description": "Workflow skills for long, autonomous Claude Code sessions.",
   "plugins": [
     {
-      "name": "workflow-skills",
+      "name": "autopilot-wargame",
       "source": "./",
       "description": "autopilot, wargame, delegate, afk and prepare-for-next-session skills for Claude Code."
     }
