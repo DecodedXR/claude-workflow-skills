@@ -12,6 +12,12 @@ Five skills that change how Claude Code works on long jobs.
 | **afk** | "afk" | Away-from-keyboard mode: no questions, sensible defaults, heavy compaction between tasks. |
 | **prepare-for-next-session** | "wrap up" | Saves only durable, non-obvious state to memory and turns the session's mistakes into lessons. |
 
+### What a bail-out looks like
+
+Real output, abridged: autopilot refusing to start in a repo with no tests or CI to gate the merge, and asking for the one decision it needs.
+
+![autopilot stopping at pre-flight and asking for a decision](assets/autopilot-bail.png)
+
 ## Install
 
 ```
