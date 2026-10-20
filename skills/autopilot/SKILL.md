@@ -113,8 +113,9 @@ the gate that the author-written green cannot be.
 
 ## 5. Review (local)
 
-Run `/code-review` (high or max) over the diff — **local, not a billed cloud
-review** unless the user opted in. Include an invariant/contract-audit angle and, at
+Run `/code-review` (high or max) over the diff if it is available — **local, not
+a billed cloud review** unless the user opted in. Otherwise spawn a fresh review
+subagent with only the diff and the task description. Include an invariant/contract-audit angle and, at
 a phase boundary, composition/interleaving scope. Apply confirmed fixes and
 re-green. A finding that needs a **judgment call** (not a clear fix) is not
 auto-mergeable — carry it to the PR and leave it for you.
@@ -199,6 +200,8 @@ task per run**, and the **same merge gate, only stricter**. Ultra spends a token
 surplus on *independent adversarial breadth* — the direct antidote to this skill's
 core risk (it authors the test, the code, AND the review). Invoking the skill is
 itself the `Workflow` authorization; use the `Workflow` tool for the fan-outs below.
+**If the `Workflow` tool is not available**, run the same panels as parallel Agent
+calls in one message, and bound the run by counting agent rounds instead of tokens.
 
 **Budget contract — `budget` is SESSION-cumulative, ≠ your run quota.** The Workflow
 `budget` global measures output tokens spent **this session so far** — NOT just this

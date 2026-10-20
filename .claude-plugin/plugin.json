@@ -1,7 +1,7 @@
 {
   "name": "autopilot-wargame",
-  "version": "1.0.0",
-  "description": "Five battle-tested Claude Code workflow skills: autopilot (ship the next unblocked task behind a verifier + CI gate), wargame (plan so a cheaper model executes blind), delegate, afk, and prepare-for-next-session.",
+  "version": "1.1.0",
+  "description": "Five Claude Code workflow skills for long and unattended sessions: autopilot (ship the next unblocked task behind a verifier + CI gate), wargame (plan so a cheaper model executes blind), delegate, afk, and prepare-for-next-session.",
   "author": { "name": "DecodedXR" },
   "icon": ".claude-plugin/icon.png",
   "homepage": "https://decodedxr.github.io/claude-workflow-skills/",

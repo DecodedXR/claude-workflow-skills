@@ -21,6 +21,16 @@ Five skills that change how Claude Code works on long jobs.
 
 Or copy any `skills/<name>` folder into `~/.claude/skills/`.
 
+## Requirements
+
+- Claude Code with plugin support.
+- **autopilot**: a git repo with a test command, plus the GitHub CLI (`gh`, authenticated) to open the PR and watch CI. Without `gh` it builds and verifies the change, then stops before landing it.
+- Everything else works in any project.
+
+## Privacy
+
+No data collection, network calls or telemetry. See [PRIVACY.md](PRIVACY.md).
+
 ## Support
 
 Free forever. If these save you time, you can [pay what you want on Gumroad](https://decodedpc.gumroad.com/l/wsgyo).

@@ -7,10 +7,11 @@ description: Away-from-keyboard autonomous mode. Use when the user says "afk", "
 
 The user has left the computer. They will not answer anything until they return.
 
-**Default launch:** this mode is meant to run with permission prompts off. Start
-the session with `claude --dangerously-skip-permissions` so no tool call blocks
-while the user is away. If it wasn't started that way, say so once at the top and
-proceed anyway (individual tool calls may still prompt).
+**Default launch:** this mode works best with permission prompts off
+(`claude --dangerously-skip-permissions`), so no tool call blocks while the user
+is away. Only do that in a container, VM, or a repo you can fully restore from
+git. If the session wasn't started that way, say so once at the top and proceed
+anyway (individual tool calls may still prompt).
 
 ## Rules
 
@@ -22,10 +23,11 @@ proceed anyway (individual tool calls may still prompt).
    needs — run commands, edit files, install deps, commit. Still respect the
    never-do lines below.
 
-3. **Compact after every task.** After finishing each task in a list, run
-   `/compact` before starting the next one, so context stays small and the
-   session can run indefinitely. Keep a running one-line status of what's done
-   / what's left so nothing is lost across a compaction.
+3. **Stay compaction-safe.** Keep a running status (done / in progress / left,
+   one line each) in a file such as `AFK-STATUS.md` and update it after every
+   task, so nothing is lost when the context auto-compacts. Push heavy
+   per-task work into subagents so the main context stays small and the
+   session can run as long as needed.
 
 4. **Work the whole list.** Don't stop at the first task. Continue until every
    task is done or genuinely blocked. If one task is blocked, record why, skip

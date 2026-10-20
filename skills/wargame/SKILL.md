@@ -1,6 +1,6 @@
 ---
 name: wargame
-description: Wargame a mission to a blindly-executable battle plan before a cheaper model runs it. Use when the user says "wargame", "wargame this", "battle plan", "plan this out", "fight it on paper", or points at a file in missions/. The genius model plans, predicts, and red-teams; a cheaper model executes the result. Produces a plan scored against the 8-Point Standard in SUCCESS.md and written to wargames/.
+description: Wargame a mission to a blindly-executable battle plan before a cheaper model runs it. Use when the user says "wargame", "wargame this", "battle plan", "plan this out", "fight it on paper", or points at a file in missions/. The genius model plans, predicts, and red-teams; a cheaper model executes the result. Produces a plan scored against the 8-Point Standard (or the project's SUCCESS.md if it has one), saved as a markdown file.
 ---
 
 # Wargame
@@ -59,7 +59,7 @@ extra context).
    never `-a`). An uncommitted plan is not safe: executor agents revert stray working-tree
    edits as "drift", and a parallel session's branch rewrite silently drops the commit that
    restores it. If another agent may share the checkout, commit through a throwaway
-   worktree (`git worktree add <tmp> master` → commit → push → `git worktree remove --force`)
+   worktree (`git worktree add <tmp> <default-branch>` → commit → push → `git worktree remove --force`)
    rather than touching the shared HEAD/index.
 
 9. **Hand off a path the executor can actually read.** Committing via a throwaway

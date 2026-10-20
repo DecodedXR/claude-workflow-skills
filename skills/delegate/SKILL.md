@@ -37,6 +37,7 @@ changes for the user — they just get the finished work.
 
 If the work is large enough to want deterministic fan-out → verify →
 synthesize across many agents (not just per-step isolation), say so and use
-the Workflow tool instead — but only when the user has opted into that scale.
+a workflow/orchestration tool instead if one is available — but only when the
+user has opted into that scale.
 For everyday multi-step work, plain per-step subagents (this skill) are the
 lazy, correct default.
