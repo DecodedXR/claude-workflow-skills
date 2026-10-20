@@ -25,6 +25,12 @@ Real output, abridged: autopilot refusing to start in a repo with no tests or CI
 /plugin install autopilot-wargame@decodedxr
 ```
 
+In the VS Code extension, paste this into your browser's address bar to open the install dialog:
+
+```
+vscode://anthropic.claude-code/install-plugin?plugin=autopilot-wargame&marketplace=DecodedXR/claude-workflow-skills
+```
+
 Or copy any `skills/<name>` folder into `~/.claude/skills/`.
 
 ## Requirements
