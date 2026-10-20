@@ -24,7 +24,7 @@ Or copy any `skills/<name>` folder into `~/.claude/skills/`.
 ## Requirements
 
 - Claude Code with plugin support.
-- **autopilot**: a git repo with a test command, plus the GitHub CLI (`gh`, authenticated) to open the PR and watch CI. Without `gh` it builds and verifies the change, then stops before landing it.
+- **autopilot**: a git repo with a test command, plus the GitHub CLI (`gh`, authenticated) to open the PR and watch CI. Without `gh` it bails before landing and reports where it stopped; it never pushes straight to the default branch.
 - Everything else works in any project.
 
 ## Privacy
