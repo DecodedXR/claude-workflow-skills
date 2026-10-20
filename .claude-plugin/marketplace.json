@@ -1,12 +1,22 @@
 {
   "name": "decodedxr",
-  "owner": { "name": "DecodedXR" },
-  "description": "Workflow skills for long, autonomous Claude Code sessions.",
+  "owner": {
+    "name": "DecodedXR"
+  },
+  "description": "Claude Code plugins by DecodedXR: workflow skills for long sessions, and desktop notifications.",
   "plugins": [
     {
       "name": "autopilot-wargame",
       "source": "./",
       "description": "autopilot, wargame, delegate, afk and prepare-for-next-session skills for Claude Code."
+    },
+    {
+      "name": "heads-up",
+      "source": {
+        "source": "github",
+        "repo": "DecodedXR/heads-up"
+      },
+      "description": "Desktop notifications when Claude Code needs permission or finishes. Windows, macOS, Linux, WSL."
     }
   ]
 }

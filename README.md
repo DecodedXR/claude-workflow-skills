@@ -37,6 +37,10 @@ Or copy any `skills/<name>` folder into `~/.claude/skills/`.
 
 No data collection, network calls or telemetry. See [PRIVACY.md](PRIVACY.md).
 
+## Also from DecodedXR
+
+- [Heads-up](https://github.com/DecodedXR/heads-up): desktop notifications when Claude Code needs permission or finishes (Windows, macOS, Linux, WSL). `/plugin install heads-up@decodedxr`
+
 ## Support
 
 Free forever. If these save you time, you can [pay what you want on Gumroad](https://decodedpc.gumroad.com/l/wsgyo).
