@@ -1,6 +1,6 @@
 ---
 name: afk
-description: Away-from-keyboard autonomous mode. Use when the user says "afk", "I'm leaving", "don't prompt me", "full permission / do anything", "run unattended", or hands over a task list to work through while away. Signals: ask nothing, use sensible defaults, and heavily compact context after each task so the session can run as long as needed.
+description: "Away-from-keyboard autonomous mode. Use when the user says \"afk\", \"I'm leaving\", \"don't prompt me\", \"full permission / do anything\", \"run unattended\", or hands over a task list to work through while away. Signals: ask nothing, use sensible defaults, and heavily compact context after each task so the session can run as long as needed."
 ---
 
 # AFK — unattended autonomous mode

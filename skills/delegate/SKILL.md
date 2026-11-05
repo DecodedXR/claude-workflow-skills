@@ -1,6 +1,6 @@
 ---
 name: delegate
-description: Run a multi-step task with each step in its own fresh subagent context, so the main conversation never accumulates per-step working memory. Use when the user types "/delegate", says "run this as subagents", "delegate the steps", "keep the context lean", or hands over a long/multi-part task where the intermediate work would otherwise bloat the thread. Optional argument: the task, or an explicit list of steps.
+description: "Run a multi-step task with each step in its own fresh subagent context, so the main conversation never accumulates per-step working memory. Use when the user types \"/delegate\", says \"run this as subagents\", \"delegate the steps\", \"keep the context lean\", or hands over a long/multi-part task where the intermediate work would otherwise bloat the thread. Optional argument: the task, or an explicit list of steps."
 ---
 
 # Delegate (subagents per step)
